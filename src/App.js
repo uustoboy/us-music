@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import { Button } from 'antd';
+import Foot from './foot/Foot';
 
 function App() {
   return (
     <div className="App">
-2212
+      <Foot></Foot>
     </div>
   );
 }
