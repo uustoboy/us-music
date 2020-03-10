@@ -13,11 +13,12 @@ mainWindow = new BrowserWindow({
   width: 800, 
   height: 600,
   titleBarStyle: 'hidden',
-  frame: false,
   webPreferences: {
     webSecurity: false
-  }
-})
+  },
+  frame: false, //取消window自带的关闭最小化等
+  resizable: false //禁止改变主窗口尺寸
+});
 
   /*
    * 加载应用-----  electron-quick-start中默认的加载入口
