@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Button } from 'antd';
+// import { Button } from 'antd';
 import Foot from './foot/Foot';
 import Head from './head/Head';
 
